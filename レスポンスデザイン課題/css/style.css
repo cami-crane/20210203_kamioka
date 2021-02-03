@@ -346,6 +346,9 @@ body {
 @media screen and (max-width: 768px) {
 .catchcopy {
   text-align: center;
+  left:auto;
+  top: auto;
+  margin: 40% 5%;
 }
 
 .news {
@@ -444,20 +447,14 @@ body {
 
 .service-content_inner {
   width: 90%;
-  position: absolute;
   left: 5%;
-  top: 80%;
+  top: 77%;
 }
 
 .service-img_second {
-  position: absolute;
-  top: 280px;
+  margin-top: 50%;
 }
 
-.service-content_inner-second {
-  position: absolute;
-  top: 530px;
-}
 }
 
 /*------------------------*/
@@ -576,7 +573,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-.top-footer h1 {
-  margin-left: 43%; 
+.top-footer h1  {
+  margin: 0 auto; 
 }
 }
